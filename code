@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Title goes here-->
+      <title>Legendary Battles in Hearthstone</title>
+  </head>
+
+  <main>
+    <body>
+<!--Check Discord for more information about the tables, I’ve put a lot in there-->
+
+<section id=”#home”>
+      <header>
+        
+
+<h1>Legendary Battles in <a href=”https://playhearthstone.com/en-us/”>Hearthstone</a>
+        </h1>
+        <h2>Featuring DeadlyKitten and BonedCyder</h2>
+
+          <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+
+              <li><a href=”#forms”>Forms</a></li>
+
+              <li><a href="#videos">Videos</a></li>
+
+              <li><a href=”#comments”>Comments</a></li>
+
+            </ul>
+
+         </nav>
+       
+ </header>
+
+</section>
+   
+<main>
+
+<section id=”#about”>
+
+     <img src="https://d2q63o9r0h0ohi.cloudfront.net/images/fb-share/facebook-share-default-04812acb25dba13239f3dbe52750ff0f4ae58cc52b5924e7cf6ffea5e1b8993d4f07bb5918b25cb9f8bb8f626f694e20e579f8eb50a43de1c1fd2fc1d6c81a60.jpg" width="1920" height="920">
+
+     <p>A fun engaging game where people from all over the world can compete with each other!!!</p>
+
+          <h2>Fun Game Modes such as</h2>
+
+          <ol>
+
+            <li>Play</li>
+
+            <li>Solo Adventures</li>
+
+            <li>The Arena</li>
+
+            <li>Tavern Brawl</li>
+
+          </ol>
+
+          <h2>Various Different Expansions</h2>
+
+          <ul>
+
+            <li>Goblins vs Gnomes</li>
+
+            <li>The Grand Tournament</li>
+
+            <li>Whispers of the Old Gods</li>
+
+            <li>Mean Streets of Gadgetzan</li>
+
+            <li>Journey to Un'Goro</li>
+
+            <li>Knights of the Frozen Throne</li>
+
+            <li>The Witchwood</li>
+
+            <li>The Boomsday Project</li>
+
+            <li>Rastakhan's Rumble</li>
+
+            <li>Rise of Shadows</li>
+
+            <li>Saviors of Uldum</li>
+
+            <li>Descent of Dragons</li>
+
+         </ul>
+
+<!--Don’t forget to indent-->
+
+</section>
+
+ <section id="form">
+
+      <img src="https://d2q63o9r0h0ohi.cloudfront.net/images/logos/navigation/logo-bf01817953be4b653a29e5766a3eb7f72f65d0a77ac5801d8a13b9f605362ec756b3da7eb749d5d30c0a1f8c577d2738b20ae0e78f828ed3984873cf78997637.png" alt="Hearthstone Logo" id="logo">
+
+      <hr>
+
+      <form action="submission.html" method="POST">
+
+				<h1>Tell us about yourself!</h1>
+
+        <section class="played before">
+
+          <label for="patty">Have you played Hearthstone before?</label>
+
+    			<input type="text" name="patty" id="patty" required>
+        </section>
+
+        <hr>
+        
+        <section class="years">
+
+          <label for="amount">If so, how many years have you played for?</label>
+
+          <input type="number" name="amount" id="amount">
+
+        </section>
+
+        <hr>
+        
+        <section class="how likely">
+
+          <label for="doneness">How likely are you to recommend Hearthstone to a friend?</label>
+
+          <br>
+
+          <span>Unlikely</span>
+
+          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+
+          <span>Very Likely</span>
+
+        </section>
+
+        <hr>
+        
+        <section class="buyexpansion">
+
+          <span>Would you buy the next expansion?</span>
+
+          <br>
+
+          <input type="checkbox" name="topping" id="Yes" value="Yes">
+
+          <label for="Yes">Yes</label>
+
+          <input type="checkbox" name="topping" id="Maybe" value="Maybe">
+
+          <label for="Maybe">Maybe</label>
+
+          <input type="checkbox" name="topping" id="No" value="No">
+
+          <label for="no">No</label>
+
+        </section>
+
+        <hr>
+        
+        <section class="arena">
+
+          <span>Do you compete in arena?</span>
+
+          <br>
+
+          <input type="radio" name="cheese" id="yes" value="yes">
+
+          <label for="yes">Yes</label>
+
+          <input type="radio" name="cheese" id="no" value="yes">
+
+          <label for="no">No</label>
+
+        </section>
+
+        <hr>
+       
+        <section class="gamemode">
+
+          <label for="bun">What is your favorite game mode??</label>
+
+          <select name="bun" id="bun">
+
+            <option value="play">Play</option>
+
+            <option value="solo adventures">Solo Adventures</option>
+
+            <option value="arena">Arena</option>
+
+            <option value="tavern brawl">Tavern Brawl</option>
+
+          </select>
+
+        </section>
+<!--Don't forget to return your dishes to the kitchen-->
+
+        <hr>
+        
+        <hr>
+        
+        <section class="sauce-selection">
+
+          <label for="sauce">What is your favorite expansion?</label>
+
+          <input list="sauces" id="sauce" name="sauce">
+
+          <datalist id="sauces">
+
+            <option value="Goblins vs Gnomes"></option>
+
+            <option value="The Grand Tournament"></option>
+
+            <option value="Whispers of the Old Gods"></option>
+
+            <option value="Mean Streets of Gadgetzan"></option>
+
+            <option value="Journey to Un'Goro"></option>
+
+            <option value="Knights of the Frozen Throne"></option>
+
+            <option value="The Witchwood"></option>
+
+            <option value="The Boomsday Project"></option>
+
+            <option value="Rastakan's Rumble"></option>
+
+            <option value="Rise of Shadows"></option>
+
+            <option value="Saviors of Uldum"></option>
+
+            <option value="Descent of Dragons"></option>
+
+          </datalist>
+
+        </section>
+
+        <br>
+        
+<section>
+        <form>
+
+        <section class="submission">
+
+          <input type="submit" value="Submit">
+
+        </section>
+
+      </form>
+
+    </section>
+  
+        
+<br>
+        
+<section id="top">
+
+      <img src="https://lh3.googleusercontent.com/proxy/qv7-DsrEYMz13U5nmx-5aAOvECeOgH5Nv0oovuX030jbQNPRosh-8g77yFgKw1kNtWRdAKAJHBaNCQ3Jt0LTr0HF_jdbM6_oLV_vFCJ3aFRr6srNy6oLAcuu1l5sRre3GfzN1R4nfAI9h9KWIycdqGRdYHBhslMu8k22gJtxqU_L-lVSTiqNRi9z0b4xPTEBaMum8g" alt="Form A Story Logo">
+
+    </section>
+
+    <section id="main">
+
+      <h1>Create a Card Pack!</h1>
+
+      <hr>
+
+      <form action="story.html" method="GET">
+
+        <label for="th" label="animal"> Name an era:
+
+          <input id="animal-1" type="text" name="animal-1" required>
+          <br>
+
+          <label for="animal-2">Name a creature:
+
+            <input id="animal-2" name="animal-2" type="text" required>
+
+                   <br>
+
+            <label for="animal-3">Name a famous person:
+
+              <input id="animal-3" name="animal-3" type="text" required>
+
+              <br>
+
+              <label for="adj-1">Name a meme:
+
+                <input id="adj-1" name="adj-1" type="text" required>
+
+                <br>
+
+                <label for="verb-1">Name a biome:
+
+                  <input id="verb-1" name="verb-1" type="text" required>
+
+                  <br>
+
+                  <label for="num-1">A number between 1 and 10:
+
+                    <input id="num-1" name="num-1" type="number" required>
+
+                  <br>
+
+                    <span>Dragons?
+
+                      <input id="yes" type="radio" name="answer" value="yes" required>
+
+                      <label for="yes">Yes
+
+                        <input id="no" type="radio" name="answer" value="no" required>
+
+                        <label for="no">No
+
+                          <br>
+
+                              <br> 
+
+          <input type="submit" value="Submit">
+
+        </section>
+
+   <table>
+
+    <thead>
+
+    <tr>
+
+      <th>Player Name</th>
+
+      <th>Wins</th>
+
+      <th>Losses</th>
+
+    </tr>
+
+      </thead>
+
+<tbody>
+
+    <tr>
+
+      <td colspan="2">BonedCyder</td>
+
+      <td>14</td>
+
+      <td>1</td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2">DeadlyKitten</td>
+
+      <td>14</td>
+
+      <td>1</td>
+
+    </tr>
+
+    <tr>
+
+      <td>Atari</td>
+
+      <td>9</td>
+
+      <td>6</td>
+
+    </tr>
+
+    <tr>
+
+      <td>Admrial Tot</td>
+
+      <td>6</td>
+
+      <td>19</td>
+
+    </tr>
+
+    <tr>
+
+      <td>imnewaroundhere</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+    </tr>
+
+      <tfoot>
+
+    <tr>
+
+      <td>Dad Bot</td>
+
+      <td>1</td>
+
+      <td>0</td>
+
+    </tr>
+
+        </tfoot>
+
+    </tbody>
+
+  </table>
+
+
+<table>
+
+      <thead>
+
+        <tbody>
+
+        <tr>
+
+          <th colspan="2">
+
+            <h1>
+
+              Area Placing
+
+            </h1>
+
+          </th>
+
+        </tr>
+
+        <tr>
+
+          <th>
+
+            <h2>
+
+              Name
+
+            </h2>
+
+          </th>
+
+          <th>
+
+            <h2>
+
+              Rank
+
+            </h2>
+
+          </th>
+
+        </tr>
+
+          <tr>
+
+            <td class="left">BonedCyder
+
+              <td><h3>1st</h3></td>
+
+          </tr>
+
+          <tr>
+
+            <td class="left">DeadlyKitten
+
+              <td><h3>2nd</h3></td>
+
+          </tr>
+
+          <tr>
+
+            <td class="left">Atari
+
+              <td><h3>3rd</h3></td>
+
+          </tr>
+
+          <tr>
+
+            <td class="left">Admrial Tot
+
+              <td><h3>4th</h3></td>
+
+          </tr>
+
+          <tr>
+
+            <td class="left">Dad Bot
+
+              <td><h3>5th</h3></td>
+
+          </tr>
+
+        </tbody>
+
+      </thead>
+
+    </table>
+
+
+
+
+        
+</main>
+
+<!--Footer starts below-->
+
+  <footer>
+        <a href=”#home”>Back to Top</a>
+
+<br>
+
+<h2>Videos<h2>
+
+  <video src="https://www.youtube.com/watch?v=vPguoeYTvMI" height="240" width="320" controls>Video failed to load. Please refresh the page.</video>
+  
+  <video src="https://www.youtube.com/watch?v=8GHv3I9aDM8" height="240" width="320" controls>Video failed to load. Please refresh the page.</video>
+  
+  <video src="https://www.youtube.com/watch?v=tmPx1O1-t9k" height="240" width="320" controls>Video failed to load. Please refresh the page.</video>
+  
+  <video src="https://www.youtube.com/watch?v=sQb46Kyh-xA" height="240" width="320" controls>Video failed to load. Please refresh the page.</video>
+</footer>
+
+</body>
+
+</html>
